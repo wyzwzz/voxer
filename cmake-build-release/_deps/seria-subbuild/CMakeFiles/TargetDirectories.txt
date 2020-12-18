@@ -1,3 +1,0 @@
-/home/wyz/cad420/voxer/cmake-build-release/_deps/seria-subbuild/CMakeFiles/rebuild_cache.dir
-/home/wyz/cad420/voxer/cmake-build-release/_deps/seria-subbuild/CMakeFiles/edit_cache.dir
-/home/wyz/cad420/voxer/cmake-build-release/_deps/seria-subbuild/CMakeFiles/seria-populate.dir

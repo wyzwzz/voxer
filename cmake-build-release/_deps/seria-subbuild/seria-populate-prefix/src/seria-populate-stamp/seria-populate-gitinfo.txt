@@ -1,3 +1,0 @@
-repository='https://github.com/ukabuer/seria.git'
-module=''
-tag='origin'

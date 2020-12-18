@@ -1,3 +1,0 @@
-repository='https://github.com/dtschump/CImg.git'
-module=''
-tag='origin'

@@ -1,8 +1,0 @@
-build
-.vscode
-./data
-yarn-error.log
-temp
-CMakeLists.txt.user
-.idea
-./apps/ExtractVolBound

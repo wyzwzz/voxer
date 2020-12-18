@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libfmtd.so.6 -o libfmtd.so.6.1.2 CMakeFiles/fmt.dir/src/format.cc.o CMakeFiles/fmt.dir/src/posix.cc.o  -Wl,-rpath,:::::::::::::::::::::: -Wl,--as-needed 

@@ -1,4 +1,0 @@
-recursive-include ipyvoxer/static *.*
-include ipyvoxer.json
-include *tgz
-include package.json
