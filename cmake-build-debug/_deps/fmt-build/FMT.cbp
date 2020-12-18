@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FMT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\fmt-src\;CMake Files\cmake-build-debug\_deps\fmt-src\support\;CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\;CMake Files\cmake-build-debug\_deps\poco-src\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\Foundation\;CMake Files\cmake-build-debug\_deps\poco-src\Foundation\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\Encodings\;CMake Files\cmake-build-debug\_deps\poco-src\Encodings\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\XML\;CMake Files\cmake-build-debug\_deps\poco-src\XML\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\JSON\;CMake Files\cmake-build-debug\_deps\poco-src\JSON\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\Util\;CMake Files\cmake-build-debug\_deps\poco-src\Util\cmake\;CMake Files\cmake-build-debug\_deps\poco-src\Net\;CMake Files\cmake-build-debug\_deps\poco-src\Net\cmake\;CMake Files\cmake-build-debug\_deps\glm-src\;CMake Files\cmake-build-debug\_deps\glm-src\glm\;CMake Files\cmake-build-debug\_deps\seria-src\;CMake Files\cmake-build-debug\_deps\spdlog-src\;CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\Rendering\;CMake Files\src\Rendering\OpenGL\;CMake Files\src\Rendering\OpenGL\shaders\;CMake Files\third_party\;CMake Files\apps\;CMake Files\apps\VoxerWorker\;CMake Files\apps\VolumeToVideo\;CMake Files\apps\ExtractVolBound\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/libfmtd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_EXPORT"/>
+					<Add directory="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/libfmtd.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_EXPORT"/>
+					<Add directory="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/ChangeLog.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/README.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/chrono.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/color.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/compile.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/locale.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/posix.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/src/posix.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\fmt-src\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/CXX1x.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/DefinePlatformSpecifc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindAPR.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindAPRUTIL.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindApache2.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindMySQL.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindODBC.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/FindPostgreSQL.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/PocoConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/PocoMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/cmake/test_compiler.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Foundation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Foundation\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Foundation/cmake/PocoFoundationConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Foundation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Encodings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Encodings\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Encodings/cmake/PocoEncodingsConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Encodings\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/XML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\XML\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/XML/cmake/PocoXMLConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\XML\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/JSON/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\JSON\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/JSON/cmake/PocoJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\JSON\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Util\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Util/cmake/PocoUtilConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Util\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Net/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Net\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/poco-src/Net/cmake/PocoNetConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\poco-src\Net\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/glm-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/glm-src/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glm-src\glm\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/seria-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\seria-src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/spdlog-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/spdlog-src/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake-build-debug/_deps/spdlog-src/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\spdlog-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders.hpp.in">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/essposition_f.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/essposition_v.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/essraycast_f.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/essraycast_v.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/position_f.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/position_v.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/raycast_f.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/raycast_v.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/screen_f.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/src/Rendering/OpenGL/shaders/screen_v.glsl">
+			<Option virtualFolder="CMake Files\src\Rendering\OpenGL\shaders\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/CImg.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/fmt.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/glm.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/poco.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/seria.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/third_party/spdlog.cmake">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/apps/VoxerWorker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\VoxerWorker\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/apps/VolumeToVideo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\VolumeToVideo\"/>
+		</Unit>
+		<Unit filename="/home/wyz/cad420/voxer/apps/ExtractVolBound/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\ExtractVolBound\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

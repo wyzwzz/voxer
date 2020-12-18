@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/CMakeFiles/poco-populate"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/CMakeFiles/poco-populate.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/CMakeFiles/poco-populate-complete.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-install.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-download.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-update.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-patch.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-configure.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-build.rule"
+		},
+		{
+			"file" : "/home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/poco-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"poco-populate"
+		],
+		"name" : "poco-populate"
+	}
+}

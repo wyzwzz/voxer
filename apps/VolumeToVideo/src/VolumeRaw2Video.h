@@ -6,6 +6,7 @@
 #define VOXER_VOLUMERAW2VIDEO_H
 #include "VideoCapture.h"
 #include <voxer/Data/StructuredGrid.hpp>
+#define RESHAPE
 class VolumeRaw2Video {
 public:
   VolumeRaw2Video(std::string raw_file_name);
@@ -20,6 +21,10 @@ private:
   voxer::StructuredGrid::Axis axis;
   std::unique_ptr<VideoCapture> vc;
   std::string out_file_name;
+#ifdef RESHAPE
+  uint32_t re_slice_w;
+  uint32_t re_slice_h;
+#endif
 };
 
 #endif // VOXER_VOLUMERAW2VIDEO_H

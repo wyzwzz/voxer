@@ -14,7 +14,7 @@ option(VOXER_BUILD_SERVER "whether to build voxer server" ON)
 option(VOXER_BUILD_PYBIND "whether to build python binding" OFF)
 option(VOXER_BUILD_VOLUME_TO_VIDEO "build volume to video application" OFF)
 option(VOXER_BUILD_TESTS "whether to build tests" OFF)
-
+option(VOXER_BUILD_EXTRACT_VOLUME_BOUND "build volume bound extraction" OFF)
 # global settings
 include(cmake/utils.cmake)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
@@ -38,3 +38,7 @@ endif ()
 if (VOXER_BUILD_TESTS)
   add_subdirectory(tests)
 endif ()
+
+if(VOXER_BUILD_EXTRACT_VOLUME_BOUND)
+  add_subdirectory(apps/ExtractVolBound)
+endif()

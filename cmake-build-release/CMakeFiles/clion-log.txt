@@ -1,0 +1,105 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DVOXER_BUILD_BACKEND_OSPRAY=OFF -DVOXER_BUILD_ANNOTATION_MODULE=OFF -DVOXER_BUILD_VOLUME_TO_VIDEO=ON -DVOXER_BUILD_EXTRACT_VOLUME_BOUND=ON -G "CodeBlocks - Unix Makefiles" /home/wyz/cad420/voxer
+-- Populating fmt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/fmt-subbuild
+[ 11%] Performing update step for 'fmt-populate'
+[ 22%] No patch step for 'fmt-populate'
+[ 33%] No configure step for 'fmt-populate'
+[ 44%] No build step for 'fmt-populate'
+[ 55%] No install step for 'fmt-populate'
+[ 66%] No test step for 'fmt-populate'
+[ 77%] Completed 'fmt-populate'
+[100%] Built target fmt-populate
+-- Version: 6.1.2
+-- Build type: Release
+-- CXX_STANDARD: 11
+-- Populating spdlog
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/spdlog-subbuild
+[ 11%] Performing update step for 'spdlog-populate'
+[ 22%] No patch step for 'spdlog-populate'
+[ 33%] No configure step for 'spdlog-populate'
+[ 44%] No build step for 'spdlog-populate'
+[ 55%] No install step for 'spdlog-populate'
+[ 66%] No test step for 'spdlog-populate'
+[ 77%] Completed 'spdlog-populate'
+[100%] Built target spdlog-populate
+-- Build spdlog: 1.8.1
+-- Build type: Release
+-- Populating cimg
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/cimg-subbuild
+[ 11%] Performing update step for 'cimg-populate'
+[ 22%] No patch step for 'cimg-populate'
+[ 33%] No configure step for 'cimg-populate'
+[ 44%] No build step for 'cimg-populate'
+[ 55%] No install step for 'cimg-populate'
+[ 66%] No test step for 'cimg-populate'
+[ 77%] Completed 'cimg-populate'
+[100%] Built target cimg-populate
+-- Populating glm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/glm-subbuild
+[ 11%] Performing update step for 'glm-populate'
+[ 22%] No patch step for 'glm-populate'
+[ 33%] No configure step for 'glm-populate'
+[ 44%] No build step for 'glm-populate'
+[ 55%] No install step for 'glm-populate'
+[ 66%] No test step for 'glm-populate'
+[ 77%] Completed 'glm-populate'
+[100%] Built target glm-populate
+-- Populating seria
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/seria-subbuild
+[ 11%] Performing update step for 'seria-populate'
+[ 22%] No patch step for 'seria-populate'
+[ 33%] No configure step for 'seria-populate'
+[ 44%] No build step for 'seria-populate'
+[ 55%] No install step for 'seria-populate'
+[ 66%] No test step for 'seria-populate'
+[ 77%] Completed 'seria-populate'
+[100%] Built target seria-populate
+-- Populating poco
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release/_deps/poco-subbuild
+[100%] Built target poco-populate
+-- Checking for C++14 compiler
+-- Checking for C++14 compiler - available
+-- Could NOT find Apache2 (missing: APACHE2_INCLUDE_DIR) 
+CMake Warning (dev) at /usr/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake:424 (message):
+  The package name passed to `find_package_handle_standard_args` (MYSQL) does
+  not match the name of the calling package (MySQL).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake-build-release/_deps/poco-src/cmake/FindMySQL.cmake:107 (find_package_handle_standard_args)
+  cmake-build-release/_deps/poco-src/CMakeLists.txt:119 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find ODBC (missing: ODBC_LIBRARY ODBC_INCLUDE_DIR) 
+-- Building without tests & samples
+-- Using internal sqlite, zlib, pcre, expat, ...
+-- CMake 3.19.1 successfully configured Poco using Unix Makefiles generator
+-- Poco package version: 1.10.1
+-- Building dynamic libraries
+-- [cmake] Installation target path: /usr/local
+-- [cmake] Bulid for OS type:		Linux
+-- [cmake] Build for OS version:	5.9.11-3-MANJARO
+-- [cmake] Build for CPU type:		x86_64
+-- [cmake] Build type:				Release
+-- [cmake] Build with cxx flags:	-O3 -DNDEBUG 
+-- [cmake] Build with c flags:		-O3 -DNDEBUG 
+-- Building: Encodings
+-- Building: XML
+-- Building: JSON
+-- Building: Util
+-- Building: Net
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wyz/cad420/voxer/cmake-build-release

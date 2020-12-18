@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wyz/cad420/voxer/apps/ExtractVolBound/src/TIFFStream.h
+gdal.h
+-
+gdal_priv.h
+-
+memory
+-
+vector
+-
+string
+-
+iostream
+-
+assert.h
+-
+
+/home/wyz/cad420/voxer/apps/ExtractVolBound/src/main.cpp
+iostream
+-
+iomanip
+-
+TIFFStream.h
+/home/wyz/cad420/voxer/apps/ExtractVolBound/src/TIFFStream.h
+
